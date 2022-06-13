@@ -1,0 +1,110 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Kdam+Thmor+Pro&display=swap');
+</style>
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ /* @media only screen and (max-width: 600px) */
+
+header {
+font-family: 'Fasthand', cursive;
+    background-color: rgb(148, 13, 96);
+    color: rgb(24, 24, 24);
+    display: flex;
+    position: center;
+    justify-content: flex-start;
+}
+
+header div{
+    width: 100%;
+
+}
+.menu {
+    display: flex;
+  flex-wrap: wrap;
+  font-size: 1.3rem;
+   
+}
+  
+.menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: wavy;
+    margin-left: 35rem;
+    font-family: 'Fasthand', cursive;
+}
+.menu a:hover {
+    color: rgb(255, 250, 250);
+}
+#titulo {
+    margin-left: 1rem;
+}
+
+body { background-image: url("https://cdn.wallpapersafari.com/7/42/xqlgfA.jpg");}
+
+#sobre {
+    color: rgb(227, 189, 213);
+padding: 4rem;
+margin-left: 5rem;
+font-size: 1.5rem;
+}
+
+#contatos {
+    color: rgb(227, 189, 213);
+    padding: 2rem;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+}
+
+#lista a {
+    color: rgb(227, 189, 213);
+    padding: 2rem;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+}
+
+#projetos {
+    color: rgb(227, 189, 213);
+    padding: 2rem;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+#skills {
+    color: rgb(227, 189, 213);
+    padding: 2rem;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+}
+
+#back-to-top {
+    bottom: 50px;
+    right: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(192, 67, 255);
+    border-radius: 3rem;
+  }
+  #back-to-top:hover {
+      color: aliceblue;
+      background-color: rgb(49, 10, 10);
+  }
+
+footer {
+    color: rgb(40, 33, 37);
+    font-family: 'Fasthand', cursive;
+    background-color: rgb(148, 13, 96);
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+      max-width: 480px;
+      font-size: 1rem;
+    }
+}
